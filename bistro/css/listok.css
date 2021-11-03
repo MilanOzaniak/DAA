@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131313;
+}
+#logo{
+    padding: 5px;
+    font-size: 20px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 15%;
+    text-decoration: none;
+}
+
+#navbar a{
+    display: block;
+    color: black;
+    font-size: 17px;
+    transition: transform .2s;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+#navbar a:hover{
+    color: orangered;
+    transform: scale(1.5);
+}
+
+#content{
+    display: block;
+    margin: 0;
+    padding: 0 40px 0 0;
+    width: 640px;
+    float: left;
+}
+
+.foodnum{
+    display: block;
+    float: left;
+}
+
+.foodname{
+    display: block;
+    float: left;
+}
+
+.foodname h2{
+    margin: 0;
+
+}
+
+.foodsum{
+    display: block;
+    float: left;
+}
+
+.foodsum p{
+    margin: 0;
+    
+}
